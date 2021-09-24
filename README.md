@@ -7,3 +7,4 @@ Bank console application using c#
 4. Transfer Amount
 5. Check Balance
 6. Transaction History
+7. Logout
