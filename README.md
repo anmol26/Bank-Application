@@ -10,4 +10,5 @@ Bank console application using c#
 6. Transaction History
 7. Logout
 
-![Bank Application drawio](https://user-images.githubusercontent.com/45265490/134692579-b78c6c92-e92a-4bc5-8f2d-42f8b6ccffe9.png)
+![Bank Application](https://user-images.githubusercontent.com/45265490/134759872-afcbfdf4-5934-4186-943b-5174b66e378f.png)
+
