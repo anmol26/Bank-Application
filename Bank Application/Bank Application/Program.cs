@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace Bank_Application
@@ -10,12 +10,12 @@ namespace Bank_Application
             Console.WriteLine("Welcome to Bank Application");
             Console.WriteLine("<-------*---------*------->\n");
 
-            //created a Users dictionary
+            //Created a Users dictionary
             Dictionary<string, string> Users = new Dictionary<string, string>();
             Users.Add("Anmol", "1234");                                              //registered users
             Users.Add("Balaji", "0000");                                             //registered users
 
-            //created a transaction history array
+            //Created a transaction history array of type string
             List<string> Transactions = new List<string>();
 
             Console.WriteLine("Enter 1, To Create a new account");
@@ -24,9 +24,9 @@ namespace Bank_Application
             // take user input to create account
             bool createAccount = (Console.ReadLine() == "1") ? true : false;
             // branch according to createAccount
-            string userName = "";
-            string password = "";
-            string userName2 = "";
+            string userName = "User1";
+            string password = "1234";
+            string userName2 = "User2";
             if (createAccount)
             {
                 // create a new account and add it to users
