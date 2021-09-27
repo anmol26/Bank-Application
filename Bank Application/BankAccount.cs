@@ -35,12 +35,6 @@ namespace Bank_Application
         {
             Console.WriteLine("\n"+"Your current amount in the Account with username "+ UserName + " is: "+ this.Money); 
         }
-        public void Transfer(double money)
-        {
-            Money -= money;
-           
-            Console.WriteLine("\nYour Money Transfer is successful!!!!\n");
-        }
         
 
     }

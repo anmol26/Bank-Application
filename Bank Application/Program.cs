@@ -23,14 +23,14 @@ namespace Bank_Application
 
             // take user input to create account
             bool createAccount = (Console.ReadLine() == "1") ? true : false;
-            // branch according to createAccount
-            string userName = "";
-            string password = "";
-            string userName2 = "";
+            
+            string userName = "User1";
+            string password = "1234";
+            string userName2 = "User2";
             if (createAccount)
             {
                 // create a new account and add it to users
-                Console.WriteLine("Enter the username:- ");
+                Console.WriteLine("Set the username:- ");
                 userName = Console.ReadLine();
                 // check if userName already exists in users dict if exists ask to pick another userName
                 while (Users.ContainsKey(userName))
@@ -39,7 +39,7 @@ namespace Bank_Application
                     userName = Console.ReadLine();
                 }
                 // set password 
-                Console.WriteLine("Enter password");
+                Console.WriteLine("Set a password");
                 password = Console.ReadLine();
                 // add user to users dict
                 Users.Add(userName, password);
@@ -77,7 +77,7 @@ namespace Bank_Application
             Console.WriteLine("Press 3, \t---\t To transfer money");
             Console.WriteLine("Press 4, \t---\t To show transaction history");
             Console.WriteLine("Press 5, \t---\t To see the balance\n");
-            Console.WriteLine("Press 0, \t---\t To log out");
+            Console.WriteLine("Press 0, \t---\t To log out\n");
 
             BankAccount bankAccount1 = new BankAccount(userName, 5000);
             BankAccount bankAccount2 = new BankAccount(userName2, 1000);
@@ -126,13 +126,13 @@ namespace Bank_Application
                 {
                     Console.WriteLine("Enter a valid option");
                 }
-
+                Console.WriteLine("\n");
                 Console.WriteLine("Press 1, \t---\t To deposit money");
                 Console.WriteLine("Press 2, \t---\t To withdraw money");
                 Console.WriteLine("Press 3, \t---\t To transfer money");
                 Console.WriteLine("Press 4, \t---\t To show transaction history");
                 Console.WriteLine("Press 5, \t---\t To see the balance\n");
-                Console.WriteLine("Press 0, \t---\t To log out");
+                Console.WriteLine("Press 0, \t---\t To log out\n");
                 option = Console.ReadLine();
             }
 
