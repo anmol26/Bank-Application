@@ -23,7 +23,7 @@ namespace Bank_Application
 
             // take user input to create account
             bool createAccount = (Console.ReadLine() == "1") ? true : false;
-            // branch according to createAccount
+            // initialization
             string userName = "User1";
             string password = "1234";
             string userName2 = "User2";
@@ -69,7 +69,7 @@ namespace Bank_Application
                 password = Console.ReadLine();
             }
 
-            Console.WriteLine();
+            Console.WriteLine("\n");
             Console.WriteLine($"Hello {userName}, You are successfully logged in!!!!! ");
             Console.WriteLine("*-----------*-----------*-----------*-----------*\n");
             Console.WriteLine("Press 1, \t---\t To deposit money");
@@ -126,7 +126,7 @@ namespace Bank_Application
                 {
                     Console.WriteLine("Enter a valid option");
                 }
-
+                Console.WriteLine("\n");
                 Console.WriteLine("Press 1, \t---\t To deposit money");
                 Console.WriteLine("Press 2, \t---\t To withdraw money");
                 Console.WriteLine("Press 3, \t---\t To transfer money");
