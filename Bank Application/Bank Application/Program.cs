@@ -70,13 +70,14 @@ namespace Bank_Application
             }
 
             Console.WriteLine();
-            Console.WriteLine($"{userName}, You are successfully logged in!!!!! ");
-            Console.WriteLine("Press 1, To deposit money");
-            Console.WriteLine("Press 2, To withdraw money");
-            Console.WriteLine("Press 3, To transfer money");
-            Console.WriteLine("Press 4, To show transaction history");
-            Console.WriteLine("Press 5, To see the balance");
-            Console.WriteLine("Press 0, To log out");
+            Console.WriteLine($"Hello {userName}, You are successfully logged in!!!!! ");
+            Console.WriteLine("*-----------*-----------*-----------*-----------*\n");
+            Console.WriteLine("Press 1, \t---\t To deposit money");
+            Console.WriteLine("Press 2, \t---\t To withdraw money");
+            Console.WriteLine("Press 3, \t---\t To transfer money");
+            Console.WriteLine("Press 4, \t---\t To show transaction history");
+            Console.WriteLine("Press 5, \t---\t To see the balance\n");
+            Console.WriteLine("Press 0, \t---\t To log out");
 
             BankAccount bankAccount1 = new BankAccount(userName, 5000);
             BankAccount bankAccount2 = new BankAccount(userName2, 1000);
@@ -126,12 +127,12 @@ namespace Bank_Application
                     Console.WriteLine("Enter a valid option");
                 }
 
-                Console.WriteLine("\nPress 1, To deposit money");
-                Console.WriteLine("Press 2, To withdraw money");
-                Console.WriteLine("Press 3, To transfer money");
-                Console.WriteLine("Press 4, To show transaction history");
-                Console.WriteLine("Press 5, To see the balance");
-                Console.WriteLine("Press 0, To log out");
+                Console.WriteLine("Press 1, \t---\t To deposit money");
+                Console.WriteLine("Press 2, \t---\t To withdraw money");
+                Console.WriteLine("Press 3, \t---\t To transfer money");
+                Console.WriteLine("Press 4, \t---\t To show transaction history");
+                Console.WriteLine("Press 5, \t---\t To see the balance\n");
+                Console.WriteLine("Press 0, \t---\t To log out");
                 option = Console.ReadLine();
             }
 
