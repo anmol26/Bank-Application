@@ -84,7 +84,7 @@ namespace Bank_Application
                     string amount = Console.ReadLine();
                     bankAccount1.Withdraw(Convert.ToInt32(amount));
                     bankAccount2.Add(Convert.ToInt32(amount));
-                    Transaction.Transactions.Add($"{amount} has been transferred successfully.");
+                    Transaction.Transactions.Add($"{amount} has been transferred to "+username+"'s account successfully.");
                 }
                 else if (option == "4")
                 {
