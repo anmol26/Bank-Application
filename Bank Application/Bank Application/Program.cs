@@ -8,16 +8,15 @@ namespace BankApplication
 {
     public class Program
     {
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Message.Welcome();
             Message.Login();
 
-            bool createAccount = (Console.ReadLine() == "1") ? true : false;        // take user input to create account
+            bool createAccount = (Console.ReadLine() == "1");        // take user input to create account
  
-            string userName = "User1";
-            string password = "1234";
-            string userName2 = "User2";
+            string userName;
+            string password;
 
             if (createAccount)
             {
@@ -60,8 +59,7 @@ namespace BankApplication
             Message.Choice();
 
             BankAccount bankAccount1 = new BankAccount(userName, 5000);
-            BankAccount bankAccount2 = new BankAccount(userName2, 1000);
-
+            
             string option = Console.ReadLine();
             while (option != "0")
             {
@@ -86,7 +84,6 @@ namespace BankApplication
                     Console.WriteLine("Enter amount to transfer in  account:-");
                     string amount = Console.ReadLine();
                     bankAccount1.Withdraw(Convert.ToInt32(amount));
-                    bankAccount2.Add(Convert.ToInt32(amount));
                     Transaction.Transactions.Add($"{amount} has been transferred to "+username+"'s account successfully.");
                 }
                 else if (option == "4")
@@ -95,7 +92,8 @@ namespace BankApplication
                 }
                 else if (option == "5")
                 {
-                    bankAccount1.Balance();
+                    string a=bankAccount1.Balance();
+                    Console.WriteLine(a);
                 }
                 else
                 {

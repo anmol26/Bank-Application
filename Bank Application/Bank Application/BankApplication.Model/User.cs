@@ -7,7 +7,7 @@ namespace BankApplication.Model
     public class User
     {
 
-        public static string userName;
+        public string userName;
 
         public string accountNum;
         
