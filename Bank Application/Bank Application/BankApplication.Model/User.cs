@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bank_Application
+namespace BankApplication.Model
 {
     public class User
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bank_Application
+namespace BankApplication.Services
 {
     public class BankAccount
     {
@@ -21,7 +21,7 @@ namespace Bank_Application
         public void Add(double Money)
         {
             this.Money += Money;
-            Console.WriteLine("\n"+Money + " added to the account successfully!!!");
+            //Console.WriteLine("\n"+Money + " added to the account successfully!!!");
         }
         public void Withdraw(double Money)
         {
@@ -32,7 +32,7 @@ namespace Bank_Application
             else 
             {
                 this.Money -= Money;
-                Console.WriteLine("\n" + Money + " withdraw from the account successfully!!!");
+                //Console.WriteLine("\n" + Money + " withdraw from the account successfully!!!");
             }
         }
         public void Balance()
@@ -43,7 +43,7 @@ namespace Bank_Application
         {
             Money -= money;
            
-            Console.WriteLine("\nYour Money Transfer is successful!!!!\n");
+            //Console.WriteLine("\nYour Money Transfer is successful!!!!\n");
         }
         
 

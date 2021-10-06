@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
+using BankApplication.Services;
+using BankApplication.Model;
 
-namespace Bank_Application
+
+namespace BankApplication
 {
     public class Program
     {
@@ -19,35 +22,35 @@ namespace Bank_Application
             if (createAccount)
             {
                 Console.WriteLine("Enter the username:- ");                 // create a new account and add it to users
-                User.userName = Console.ReadLine();
-                while (User.Users.ContainsKey(User.userName))                    // check if userName already exists in users dict if exists ask to pick another userName
+                userName = Console.ReadLine();
+                while (User.Users.ContainsKey(userName))                    // check if userName already exists in users dict if exists ask to pick another userName
                 {
-                    Console.WriteLine(User.userName + " is already taken, Please pick another username");
-                    User.userName = Console.ReadLine();
+                    Console.WriteLine(userName + " is already taken, Please pick another username");
+                    userName = Console.ReadLine();
                 }
                 Console.WriteLine("Enter password");                    // set password 
                 password = Console.ReadLine();                          // add user to users dict
-                User.Users.Add(User.userName, password);
+                User.Users.Add(userName, password);
                 Console.WriteLine("\n!!!!!! Account Created Successfully !!!!!!\n");
 
             }
             Console.WriteLine("Enter Username");
             userName = Console.ReadLine();
-            while (!User.Users.ContainsKey(User.userName))
+            while (!User.Users.ContainsKey(userName))
             {
                     Console.WriteLine("Enter username");
-                    User.userName = Console.ReadLine();
-                    while (!User.Users.ContainsKey(User.userName))
+                    userName = Console.ReadLine();
+                    while (!User.Users.ContainsKey(userName))
                     {
                         Console.WriteLine("Username not found, Please try again");
-                        User.userName = Console.ReadLine();
+                        userName = Console.ReadLine();
                     }
             }    
             
             Console.WriteLine();
             Console.WriteLine("Enter Password");
             password = Console.ReadLine();
-            while (User.Users[User.userName] != password)
+            while (User.Users[userName] != password)
             {
                 Console.WriteLine("Wrong password, Please try again");
                 password = Console.ReadLine();
@@ -56,7 +59,7 @@ namespace Bank_Application
             Message.WelcomeUser();
             Message.Choice();
 
-            BankAccount bankAccount1 = new BankAccount(User.userName, 5000);
+            BankAccount bankAccount1 = new BankAccount(userName, 5000);
             BankAccount bankAccount2 = new BankAccount(userName2, 1000);
 
             string option = Console.ReadLine();

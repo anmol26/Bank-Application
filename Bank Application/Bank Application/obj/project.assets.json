@@ -248,9 +248,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Source\\Repos\\Bank-Application\\Bank Application\\Bank Application\\Bank Application.csproj",
-      "projectName": "Bank Application",
-      "projectPath": "C:\\Users\\dell\\Source\\Repos\\Bank-Application\\Bank Application\\Bank Application\\Bank Application.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\Source\\Repos\\Bank-Application\\Bank Application\\Bank Application\\BankApplication.csproj",
+      "projectName": "BankApplication",
+      "projectPath": "C:\\Users\\dell\\Source\\Repos\\Bank-Application\\Bank Application\\Bank Application\\BankApplication.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dell\\Source\\Repos\\Bank-Application\\Bank Application\\Bank Application\\obj\\",
       "projectStyle": "PackageReference",

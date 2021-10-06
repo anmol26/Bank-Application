@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IMXtTLx1ghd6ML3flUAaMM1J/sjtfkI6VDPmhOFRuHWlPPl3kMC/0vTS3xKuKk7kCS1+QhkRhMK2Xa6+cQsoeQ==",
+  "dgSpecHash": "AOeaTELLtST/9jvRz8W+ueWm2hQwcYB/XQFHTqXJ1qfjjJBns0OR1sRwSsLYw66btyeyElbkX6jM+MnLVxcaag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dell\\Source\\Repos\\Bank-Application\\Bank Application\\Bank Application\\Bank Application.csproj",
+  "projectFilePath": "C:\\Users\\dell\\Source\\Repos\\Bank-Application\\Bank Application\\Bank Application\\BankApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

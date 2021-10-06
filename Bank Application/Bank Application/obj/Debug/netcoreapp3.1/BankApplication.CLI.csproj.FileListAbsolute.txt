@@ -1,0 +1,14 @@
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\bin\Debug\netcoreapp3.1\BankApplication.CLI.exe
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\bin\Debug\netcoreapp3.1\BankApplication.CLI.deps.json
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\bin\Debug\netcoreapp3.1\BankApplication.CLI.runtimeconfig.json
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\bin\Debug\netcoreapp3.1\BankApplication.CLI.runtimeconfig.dev.json
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\bin\Debug\netcoreapp3.1\BankApplication.CLI.dll
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\bin\Debug\netcoreapp3.1\BankApplication.CLI.pdb
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\obj\Debug\netcoreapp3.1\BankApplication.CLI.csproj.AssemblyReference.cache
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\obj\Debug\netcoreapp3.1\BankApplication.CLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\obj\Debug\netcoreapp3.1\BankApplication.CLI.AssemblyInfoInputs.cache
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\obj\Debug\netcoreapp3.1\BankApplication.CLI.AssemblyInfo.cs
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\obj\Debug\netcoreapp3.1\BankApplication.CLI.csproj.CoreCompileInputs.cache
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\obj\Debug\netcoreapp3.1\BankApplication.CLI.dll
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\obj\Debug\netcoreapp3.1\BankApplication.CLI.pdb
+C:\Users\dell\Source\Repos\Bank-Application\Bank Application\Bank Application\obj\Debug\netcoreapp3.1\BankApplication.CLI.genruntimeconfig.cache
